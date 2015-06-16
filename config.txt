@@ -1,0 +1,9 @@
+DataCacheSize(Bytes): 16384
+Associativity: 2
+BlockSize(Bytes): 64
+WritePolicy: 2
+VictimCacheSize(Blocks): 16
+ReplacementPolicy:LRU
+
+***NOTE: To specify fully associative, type Full.***
+***NOTE: Space is used as delimiter. Do not delete space.***

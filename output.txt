@@ -1,0 +1,31 @@
+****INPUT DATA****
+
+DataCacheSize(Bytes): 16384
+Associativity: 2
+BlockSize(Bytes): 64
+WritePolicy: Write Through with No Write Allocate
+VictimCacheSize(Blocks): 16
+Trace File: mcf.trace
+
+****OUTPUT DATA****
+
+Total Data Accesses:	727230
+------------------L1 Cache------------------
+-----L1 Reads:	5972
+Hits:		5761
+Misses:		211
+-----L1 Writes:	721258
+Hits:		2091
+Misses:		719167
+L1 Miss Rate:		0.989203
+----------------Victim Cache---------------
+Victim Reads:	211
+Hits:		2
+Misses:		209
+Victim Writes:	719167
+Hits:		16
+Misses:		719151
+Victim Miss Rate:	0.999975
+--------------Memory Traffic--------------
+(Memory->Cache):	13376 bytes
+(Cache-> Memory):	46172864 bytes
